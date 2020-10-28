@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="USPS Spoke">2b044a76db88e010afca50e4e296198e</category>
+        <order>100</order>
+        <property display_value="x_nuai_usps_spoke.USPS.Spoke.UserName" name="x_nuai_usps_spoke.USPS.Spoke.UserName">ae340e76db88e010afca50e4e296193b</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>casey.barela@NuAxisCX.com</sys_created_by>
+        <sys_created_on>2020-10-28 02:03:48</sys_created_on>
+        <sys_id>14b4c2b6db88e010afca50e4e296194a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_nuai_usps_spoke.USPS.Spoke.UserName.USPS Spoke</sys_name>
+        <sys_package display_value="USPS Spoke" source="x_nuai_usps_spoke">d73bb5b6dbcce010126ba5d51b9619ba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="USPS Spoke">d73bb5b6dbcce010126ba5d51b9619ba</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_14b4c2b6db88e010afca50e4e296194a</sys_update_name>
+        <sys_updated_by>casey.barela@NuAxisCX.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 02:03:48</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>
