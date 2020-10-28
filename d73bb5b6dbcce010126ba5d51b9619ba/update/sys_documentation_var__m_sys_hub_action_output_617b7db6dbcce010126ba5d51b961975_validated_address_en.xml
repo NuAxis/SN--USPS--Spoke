@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="validated_address" label="Validated Address" language="en" table="var__m_sys_hub_action_output_617b7db6dbcce010126ba5d51b961975">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>validated_address</element>
+            <help/>
+            <hint/>
+            <label>Validated Address</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_617b7db6dbcce010126ba5d51b961975</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>casey.barela@NuAxisCX.com</sys_created_by>
+            <sys_created_on>2020-10-28 02:27:54</sys_created_on>
+            <sys_id>153a86fadb88e010afca50e4e29619fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Validated Address</sys_name>
+            <sys_package display_value="USPS Spoke" source="x_nuai_usps_spoke">d73bb5b6dbcce010126ba5d51b9619ba</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="USPS Spoke">d73bb5b6dbcce010126ba5d51b9619ba</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_617b7db6dbcce010126ba5d51b961975_validated_address_en</sys_update_name>
+            <sys_updated_by>casey.barela@NuAxisCX.com</sys_updated_by>
+            <sys_updated_on>2020-10-28 02:27:54</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
