@@ -240,12 +240,11 @@
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <inputs/>
         <label>XML Parser step</label>
         <order>3</order>
         <outputs/>
         <section/>
-        <step_type display_value="XML Parser">34371337773223007b2380733b106170</step_type>
+        <step_type display_value="">34371337773223007b2380733b106170</step_type>
         <sys_created_by>casey.barela@NuAxisCX.com</sys_created_by>
         <sys_created_on>2020-10-28 02:22:38</sys_created_on>
         <sys_id>280946badb88e010afca50e4e2961988</sys_id>
@@ -298,55 +297,6 @@
         <value>{"name":"AddressValidateResponse","children":[{"name":"Address","children":[{"name":"Address2","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/Address2","previewValue":"29851 AVENTURA STE K"},{"name":"City","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/City","previewValue":"RANCHO SANTA MARGARITA"},{"name":"CityAbbreviation","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/CityAbbreviation","previewValue":"RCHO STA MARG"},{"name":"State","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/State","previewValue":"CA"},{"name":"Zip5","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/Zip5","previewValue":"92688"},{"name":"Zip4","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/Zip4","previewValue":"2014"},{"name":"DeliveryPoint","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/DeliveryPoint","previewValue":"83"},{"name":"CarrierRoute","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/CarrierRoute","previewValue":"C057"},{"name":"Footnotes","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/Footnotes","previewValue":"N"},{"name":"DPVConfirmation","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/DPVConfirmation","previewValue":"Y"},{"name":"DPVCMRA","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/DPVCMRA","previewValue":"N"},{"name":"DPVFootnotes","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/DPVFootnotes","previewValue":"AABB"},{"name":"Business","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/Business","previewValue":"Y"},{"name":"CentralDeliveryPoint","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/CentralDeliveryPoint","previewValue":"N"},{"name":"Vacant","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/Vacant","previewValue":"N"}],"type":"object","xpath":"/AddressValidateResponse/Address","previewValue":""}],"type":"object","xpath":"/AddressValidateResponse","previewValue":""}</value>
         <variable display_value="">13e1f5fd735b2300ab7931d7caf6a76b</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=280946badb88e010afca50e4e2961988"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>payload_view</field>
-        <id>280946badb88e010afca50e4e2961988</id>
-        <sys_created_by>casey.barela@NuAxisCX.com</sys_created_by>
-        <sys_created_on>2020-10-28 02:22:39</sys_created_on>
-        <sys_id>a80946badb88e010afca50e4e2961997</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>casey.barela@NuAxisCX.com</sys_updated_by>
-        <sys_updated_on>2020-10-28 02:22:39</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_34371337773223007b2380733b106170</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>sample_payload</field>
-        <id>280946badb88e010afca50e4e2961988</id>
-        <sys_created_by>casey.barela@NuAxisCX.com</sys_created_by>
-        <sys_created_on>2020-10-28 02:22:39</sys_created_on>
-        <sys_id>6c0946badb88e010afca50e4e2961997</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>casey.barela@NuAxisCX.com</sys_updated_by>
-        <sys_updated_on>2020-10-28 02:22:39</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_34371337773223007b2380733b106170</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>source_data</field>
-        <id>280946badb88e010afca50e4e2961988</id>
-        <sys_created_by>casey.barela@NuAxisCX.com</sys_created_by>
-        <sys_created_on>2020-10-28 02:41:24</sys_created_on>
-        <sys_id>134d46bedb88e010afca50e4e2961977</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>casey.barela@NuAxisCX.com</sys_updated_by>
-        <sys_updated_on>2020-10-28 02:41:24</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_34371337773223007b2380733b106170</table>
-        <value>{{step[20aaf2ec-139e-42b5-bf82-18708f175437].response_body}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>target_schema</field>
-        <id>280946badb88e010afca50e4e2961988</id>
-        <sys_created_by>casey.barela@NuAxisCX.com</sys_created_by>
-        <sys_created_on>2020-10-28 02:22:39</sys_created_on>
-        <sys_id>e40946badb88e010afca50e4e2961997</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>casey.barela@NuAxisCX.com</sys_updated_by>
-        <sys_updated_on>2020-10-28 02:22:39</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_34371337773223007b2380733b106170</table>
-        <value/>
-    </sys_element_mapping>
     <sys_hub_step_ext_output action="delete_multiple" query="model=280946badb88e010afca50e4e2961988^sys_idNOT INe00946badb88e010afca50e4e296198f"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -1580,12 +1530,11 @@ outputs.usps_username = gs.getProperty('x_nuai_usps_spoke.USPS.Spoke.UserName');
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <inputs/>
         <label>XML Parser step</label>
         <order>3</order>
         <outputs/>
         <section/>
-        <step_type display_value="XML Parser">34371337773223007b2380733b106170</step_type>
+        <step_type display_value="">34371337773223007b2380733b106170</step_type>
         <sys_created_by>casey.barela@NuAxisCX.com</sys_created_by>
         <sys_created_on>2020-10-28 02:22:38</sys_created_on>
         <sys_id>280946badb88e010afca50e4e2961988</sys_id>
@@ -1638,55 +1587,6 @@ outputs.usps_username = gs.getProperty('x_nuai_usps_spoke.USPS.Spoke.UserName');
         <value>{"name":"AddressValidateResponse","children":[{"name":"Address","children":[{"name":"Address2","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/Address2","previewValue":"29851 AVENTURA STE K"},{"name":"City","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/City","previewValue":"RANCHO SANTA MARGARITA"},{"name":"CityAbbreviation","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/CityAbbreviation","previewValue":"RCHO STA MARG"},{"name":"State","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/State","previewValue":"CA"},{"name":"Zip5","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/Zip5","previewValue":"92688"},{"name":"Zip4","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/Zip4","previewValue":"2014"},{"name":"DeliveryPoint","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/DeliveryPoint","previewValue":"83"},{"name":"CarrierRoute","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/CarrierRoute","previewValue":"C057"},{"name":"Footnotes","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/Footnotes","previewValue":"N"},{"name":"DPVConfirmation","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/DPVConfirmation","previewValue":"Y"},{"name":"DPVCMRA","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/DPVCMRA","previewValue":"N"},{"name":"DPVFootnotes","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/DPVFootnotes","previewValue":"AABB"},{"name":"Business","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/Business","previewValue":"Y"},{"name":"CentralDeliveryPoint","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/CentralDeliveryPoint","previewValue":"N"},{"name":"Vacant","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/Vacant","previewValue":"N"}],"type":"object","xpath":"/AddressValidateResponse/Address","previewValue":""}],"type":"object","xpath":"/AddressValidateResponse","previewValue":""}</value>
         <variable display_value="">13e1f5fd735b2300ab7931d7caf6a76b</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=280946badb88e010afca50e4e2961988"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>payload_view</field>
-        <id>280946badb88e010afca50e4e2961988</id>
-        <sys_created_by>casey.barela@NuAxisCX.com</sys_created_by>
-        <sys_created_on>2020-10-28 02:22:39</sys_created_on>
-        <sys_id>a80946badb88e010afca50e4e2961997</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>casey.barela@NuAxisCX.com</sys_updated_by>
-        <sys_updated_on>2020-10-28 02:22:39</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_34371337773223007b2380733b106170</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>sample_payload</field>
-        <id>280946badb88e010afca50e4e2961988</id>
-        <sys_created_by>casey.barela@NuAxisCX.com</sys_created_by>
-        <sys_created_on>2020-10-28 02:22:39</sys_created_on>
-        <sys_id>6c0946badb88e010afca50e4e2961997</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>casey.barela@NuAxisCX.com</sys_updated_by>
-        <sys_updated_on>2020-10-28 02:22:39</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_34371337773223007b2380733b106170</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>source_data</field>
-        <id>280946badb88e010afca50e4e2961988</id>
-        <sys_created_by>casey.barela@NuAxisCX.com</sys_created_by>
-        <sys_created_on>2020-10-28 02:41:24</sys_created_on>
-        <sys_id>134d46bedb88e010afca50e4e2961977</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>casey.barela@NuAxisCX.com</sys_updated_by>
-        <sys_updated_on>2020-10-28 02:41:24</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_34371337773223007b2380733b106170</table>
-        <value>{{step[20aaf2ec-139e-42b5-bf82-18708f175437].response_body}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>target_schema</field>
-        <id>280946badb88e010afca50e4e2961988</id>
-        <sys_created_by>casey.barela@NuAxisCX.com</sys_created_by>
-        <sys_created_on>2020-10-28 02:22:39</sys_created_on>
-        <sys_id>e40946badb88e010afca50e4e2961997</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>casey.barela@NuAxisCX.com</sys_updated_by>
-        <sys_updated_on>2020-10-28 02:22:39</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_34371337773223007b2380733b106170</table>
-        <value/>
-    </sys_element_mapping>
     <sys_hub_step_ext_output action="delete_multiple" query="model=280946badb88e010afca50e4e2961988^sys_idNOT INe00946badb88e010afca50e4e296198f"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -2581,11 +2481,11 @@ outputs.usps_username = gs.getProperty('x_nuai_usps_spoke.USPS.Spoke.UserName');
         <sys_created_on>2020-10-28 02:07:18</sys_created_on>
         <sys_id>f77542f6db88e010afca50e4e29619bf</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>User</sys_name>
         <sys_package display_value="USPS Spoke" source="x_nuai_usps_spoke">d73bb5b6dbcce010126ba5d51b9619ba</sys_package>
         <sys_policy/>
         <sys_scope display_value="USPS Spoke">d73bb5b6dbcce010126ba5d51b9619ba</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_617b7db6dbcce010126ba5d51b961975_user_en</sys_update_name>
         <sys_updated_by>casey.barela@NuAxisCX.com</sys_updated_by>
         <sys_updated_on>2020-10-28 02:07:18</sys_updated_on>
         <url/>
@@ -2605,11 +2505,11 @@ outputs.usps_username = gs.getProperty('x_nuai_usps_spoke.USPS.Spoke.UserName');
         <sys_created_on>2020-10-28 02:27:54</sys_created_on>
         <sys_id>153a86fadb88e010afca50e4e29619fd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Validated Address</sys_name>
         <sys_package display_value="USPS Spoke" source="x_nuai_usps_spoke">d73bb5b6dbcce010126ba5d51b9619ba</sys_package>
         <sys_policy/>
         <sys_scope display_value="USPS Spoke">d73bb5b6dbcce010126ba5d51b9619ba</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_617b7db6dbcce010126ba5d51b961975_validated_address_en</sys_update_name>
         <sys_updated_by>casey.barela@NuAxisCX.com</sys_updated_by>
         <sys_updated_on>2020-10-28 02:27:54</sys_updated_on>
         <url/>
@@ -3667,12 +3567,11 @@ outputs.usps_username = gs.getProperty('x_nuai_usps_spoke.USPS.Spoke.UserName');
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <inputs/>
         <label>XML Parser step</label>
         <order>3</order>
         <outputs/>
         <section/>
-        <step_type display_value="XML Parser">34371337773223007b2380733b106170</step_type>
+        <step_type display_value="">34371337773223007b2380733b106170</step_type>
         <sys_created_by>casey.barela@NuAxisCX.com</sys_created_by>
         <sys_created_on>2020-10-28 02:42:18</sys_created_on>
         <sys_id>e48dcabedb88e010afca50e4e2961920</sys_id>
@@ -3725,55 +3624,6 @@ outputs.usps_username = gs.getProperty('x_nuai_usps_spoke.USPS.Spoke.UserName');
         <value>{"name":"AddressValidateResponse","children":[{"name":"Address","children":[{"name":"Address2","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/Address2","previewValue":"29851 AVENTURA STE K"},{"name":"City","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/City","previewValue":"RANCHO SANTA MARGARITA"},{"name":"CityAbbreviation","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/CityAbbreviation","previewValue":"RCHO STA MARG"},{"name":"State","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/State","previewValue":"CA"},{"name":"Zip5","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/Zip5","previewValue":"92688"},{"name":"Zip4","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/Zip4","previewValue":"2014"},{"name":"DeliveryPoint","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/DeliveryPoint","previewValue":"83"},{"name":"CarrierRoute","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/CarrierRoute","previewValue":"C057"},{"name":"Footnotes","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/Footnotes","previewValue":"N"},{"name":"DPVConfirmation","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/DPVConfirmation","previewValue":"Y"},{"name":"DPVCMRA","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/DPVCMRA","previewValue":"N"},{"name":"DPVFootnotes","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/DPVFootnotes","previewValue":"AABB"},{"name":"Business","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/Business","previewValue":"Y"},{"name":"CentralDeliveryPoint","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/CentralDeliveryPoint","previewValue":"N"},{"name":"Vacant","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/Vacant","previewValue":"N"}],"type":"object","xpath":"/AddressValidateResponse/Address","previewValue":""}],"type":"object","xpath":"/AddressValidateResponse","previewValue":""}</value>
         <variable display_value="">13e1f5fd735b2300ab7931d7caf6a76b</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=e48dcabedb88e010afca50e4e2961920"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>payload_view</field>
-        <id>e48dcabedb88e010afca50e4e2961920</id>
-        <sys_created_by>casey.barela@NuAxisCX.com</sys_created_by>
-        <sys_created_on>2020-10-28 02:42:18</sys_created_on>
-        <sys_id>6c8dcabedb88e010afca50e4e296192d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>casey.barela@NuAxisCX.com</sys_updated_by>
-        <sys_updated_on>2020-10-28 02:42:18</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_34371337773223007b2380733b106170</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>sample_payload</field>
-        <id>e48dcabedb88e010afca50e4e2961920</id>
-        <sys_created_by>casey.barela@NuAxisCX.com</sys_created_by>
-        <sys_created_on>2020-10-28 02:42:18</sys_created_on>
-        <sys_id>208dcabedb88e010afca50e4e296192e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>casey.barela@NuAxisCX.com</sys_updated_by>
-        <sys_updated_on>2020-10-28 02:42:18</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_34371337773223007b2380733b106170</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>source_data</field>
-        <id>e48dcabedb88e010afca50e4e2961920</id>
-        <sys_created_by>casey.barela@NuAxisCX.com</sys_created_by>
-        <sys_created_on>2020-10-28 02:42:18</sys_created_on>
-        <sys_id>e48dcabedb88e010afca50e4e296192d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>casey.barela@NuAxisCX.com</sys_updated_by>
-        <sys_updated_on>2020-10-28 02:42:18</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_34371337773223007b2380733b106170</table>
-        <value>{{step[20aaf2ec-139e-42b5-bf82-18708f175437].response_body}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>target_schema</field>
-        <id>e48dcabedb88e010afca50e4e2961920</id>
-        <sys_created_by>casey.barela@NuAxisCX.com</sys_created_by>
-        <sys_created_on>2020-10-28 02:42:18</sys_created_on>
-        <sys_id>a88dcabedb88e010afca50e4e296192d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>casey.barela@NuAxisCX.com</sys_updated_by>
-        <sys_updated_on>2020-10-28 02:42:18</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_34371337773223007b2380733b106170</table>
-        <value/>
-    </sys_element_mapping>
     <sys_hub_step_ext_output action="delete_multiple" query="model=e48dcabedb88e010afca50e4e2961920^sys_idNOT INe48dcabedb88e010afca50e4e2961925"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -5007,12 +4857,11 @@ outputs.usps_username = gs.getProperty('x_nuai_usps_spoke.USPS.Spoke.UserName');
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <inputs/>
         <label>XML Parser step</label>
         <order>3</order>
         <outputs/>
         <section/>
-        <step_type display_value="XML Parser">34371337773223007b2380733b106170</step_type>
+        <step_type display_value="">34371337773223007b2380733b106170</step_type>
         <sys_created_by>casey.barela@NuAxisCX.com</sys_created_by>
         <sys_created_on>2020-10-28 02:42:18</sys_created_on>
         <sys_id>e48dcabedb88e010afca50e4e2961920</sys_id>
@@ -5065,55 +4914,6 @@ outputs.usps_username = gs.getProperty('x_nuai_usps_spoke.USPS.Spoke.UserName');
         <value>{"name":"AddressValidateResponse","children":[{"name":"Address","children":[{"name":"Address2","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/Address2","previewValue":"29851 AVENTURA STE K"},{"name":"City","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/City","previewValue":"RANCHO SANTA MARGARITA"},{"name":"CityAbbreviation","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/CityAbbreviation","previewValue":"RCHO STA MARG"},{"name":"State","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/State","previewValue":"CA"},{"name":"Zip5","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/Zip5","previewValue":"92688"},{"name":"Zip4","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/Zip4","previewValue":"2014"},{"name":"DeliveryPoint","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/DeliveryPoint","previewValue":"83"},{"name":"CarrierRoute","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/CarrierRoute","previewValue":"C057"},{"name":"Footnotes","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/Footnotes","previewValue":"N"},{"name":"DPVConfirmation","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/DPVConfirmation","previewValue":"Y"},{"name":"DPVCMRA","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/DPVCMRA","previewValue":"N"},{"name":"DPVFootnotes","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/DPVFootnotes","previewValue":"AABB"},{"name":"Business","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/Business","previewValue":"Y"},{"name":"CentralDeliveryPoint","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/CentralDeliveryPoint","previewValue":"N"},{"name":"Vacant","children":[],"type":"string","xpath":"/AddressValidateResponse/Address/Vacant","previewValue":"N"}],"type":"object","xpath":"/AddressValidateResponse/Address","previewValue":""}],"type":"object","xpath":"/AddressValidateResponse","previewValue":""}</value>
         <variable display_value="">13e1f5fd735b2300ab7931d7caf6a76b</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=e48dcabedb88e010afca50e4e2961920"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>payload_view</field>
-        <id>e48dcabedb88e010afca50e4e2961920</id>
-        <sys_created_by>casey.barela@NuAxisCX.com</sys_created_by>
-        <sys_created_on>2020-10-28 02:42:18</sys_created_on>
-        <sys_id>6c8dcabedb88e010afca50e4e296192d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>casey.barela@NuAxisCX.com</sys_updated_by>
-        <sys_updated_on>2020-10-28 02:42:18</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_34371337773223007b2380733b106170</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>sample_payload</field>
-        <id>e48dcabedb88e010afca50e4e2961920</id>
-        <sys_created_by>casey.barela@NuAxisCX.com</sys_created_by>
-        <sys_created_on>2020-10-28 02:42:18</sys_created_on>
-        <sys_id>208dcabedb88e010afca50e4e296192e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>casey.barela@NuAxisCX.com</sys_updated_by>
-        <sys_updated_on>2020-10-28 02:42:18</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_34371337773223007b2380733b106170</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>source_data</field>
-        <id>e48dcabedb88e010afca50e4e2961920</id>
-        <sys_created_by>casey.barela@NuAxisCX.com</sys_created_by>
-        <sys_created_on>2020-10-28 02:42:18</sys_created_on>
-        <sys_id>e48dcabedb88e010afca50e4e296192d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>casey.barela@NuAxisCX.com</sys_updated_by>
-        <sys_updated_on>2020-10-28 02:42:18</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_34371337773223007b2380733b106170</table>
-        <value>{{step[20aaf2ec-139e-42b5-bf82-18708f175437].response_body}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>target_schema</field>
-        <id>e48dcabedb88e010afca50e4e2961920</id>
-        <sys_created_by>casey.barela@NuAxisCX.com</sys_created_by>
-        <sys_created_on>2020-10-28 02:42:18</sys_created_on>
-        <sys_id>a88dcabedb88e010afca50e4e296192d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>casey.barela@NuAxisCX.com</sys_updated_by>
-        <sys_updated_on>2020-10-28 02:42:18</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_34371337773223007b2380733b106170</table>
-        <value/>
-    </sys_element_mapping>
     <sys_hub_step_ext_output action="delete_multiple" query="model=e48dcabedb88e010afca50e4e2961920^sys_idNOT INe48dcabedb88e010afca50e4e2961925"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -5210,11 +5010,11 @@ outputs.usps_username = gs.getProperty('x_nuai_usps_spoke.USPS.Spoke.UserName');
         <sys_created_on>2020-10-28 02:42:18</sys_created_on>
         <sys_id>108d8abedb88e010afca50e4e29619ff</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>User</sys_name>
         <sys_package display_value="USPS Spoke" source="x_nuai_usps_spoke">d73bb5b6dbcce010126ba5d51b9619ba</sys_package>
         <sys_policy/>
         <sys_scope display_value="USPS Spoke">d73bb5b6dbcce010126ba5d51b9619ba</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_148d8abedb88e010afca50e4e29619f6_user_en</sys_update_name>
         <sys_updated_by>casey.barela@NuAxisCX.com</sys_updated_by>
         <sys_updated_on>2020-10-28 02:42:18</sys_updated_on>
         <url/>
@@ -5234,11 +5034,11 @@ outputs.usps_username = gs.getProperty('x_nuai_usps_spoke.USPS.Spoke.UserName');
         <sys_created_on>2020-10-28 02:42:19</sys_created_on>
         <sys_id>b08dcabedb88e010afca50e4e296197e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Validated Address</sys_name>
         <sys_package display_value="USPS Spoke" source="x_nuai_usps_spoke">d73bb5b6dbcce010126ba5d51b9619ba</sys_package>
         <sys_policy/>
         <sys_scope display_value="USPS Spoke">d73bb5b6dbcce010126ba5d51b9619ba</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_148d8abedb88e010afca50e4e29619f6_validated_address_en</sys_update_name>
         <sys_updated_by>casey.barela@NuAxisCX.com</sys_updated_by>
         <sys_updated_on>2020-10-28 02:42:19</sys_updated_on>
         <url/>
